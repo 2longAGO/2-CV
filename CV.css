@@ -1,0 +1,45 @@
+#photo {  
+    line-height: 0;
+    margin-left: 10%;
+    height:30%;
+    width:30%;
+    }
+
+#maintitle {
+    text-align: center;
+    font: italic 24pt sans-serif;
+}
+
+.inline {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.inlineItem {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.bar {
+    background-color: rgb(192, 192, 192);
+    width: 60%;
+    height: 80%;
+    border-radius: 15px;
+}
+
+.progress {
+    background-color: rgb(116, 194, 92);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    border-radius: 15px;
+}
+
+.icons {
+    resize: both; 
+    margin: 0%;
+}
