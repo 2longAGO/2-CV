@@ -1,0 +1,102 @@
+html {
+    background-image: url("resources/bg.png");
+    background-repeat: repeat;
+    background-size: 300%;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 2em;
+}
+    
+#maintitle {
+    text-align: center;
+    font: italic bold 6em sans-serif;
+}
+
+.outlinebg {
+    padding: 0.5em;
+    border:1px solid #000;
+    background-color:hsla(0, 0%, 100%, 0.8);
+    box-shadow: 0.6em 0.75em yellow;
+}
+
+.progress {
+    background-color: rgb(116, 194, 92);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    border-radius: 1.3em;
+}
+
+.icons {
+    resize: both; 
+    margin: 0%;
+}
+
+@media only screen and (max-width: 1235px) {
+    #photo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height:50%;
+        width:50%;
+    }
+
+    #workexp {
+        width: 100%;
+    }
+    
+    #edu {
+        width: 100%;
+    }
+
+    .inline {
+        padding-right: 1em;
+    }
+
+    .bar {
+        background-color: rgb(192, 192, 192);
+        width: 90%;
+        height: 80%;
+        border-radius: 1.3em;
+    }
+}
+@media screen and (min-width: 1236px) {
+    #photo {
+        margin-left: 10%;
+        height:30%;
+        width:30%;
+    }
+    
+    #contact {
+        width: 55%;
+    }
+    
+    #workexp {
+        width: 48%;
+        float:left;
+    }
+    
+    #edu {
+        width: 49%;
+    }
+
+    .inlineItem {
+        float: right;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    .bar {
+        background-color: rgb(192, 192, 192);
+        width: 60%;
+        height: 80%;
+        border-radius: 1.3em;
+    }
+}
